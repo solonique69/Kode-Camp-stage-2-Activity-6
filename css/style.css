@@ -1,0 +1,400 @@
+*,*::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'open sans', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.row {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.row-100 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.row-column-100 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-column {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  padding: 60px;
+  background-image: url('../images/header-banner.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-heading {
+  font-style: italic;
+  font-size: 96px;
+  padding: 0 2rem;
+}
+
+.banner-text {
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  padding: 30px;
+}
+
+.block-1 {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  background-color: #d9b1b3;
+  color: white;
+}
+
+.text-bold {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.text-bold span {
+  font-size: 6rem;
+  line-height: 0;
+}
+
+.text-small {
+  width: 50%;
+  font-size: 0.9rem;
+}
+
+.gallery .first-line, .second-line {
+  height: 540px;
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery .img-1 {
+  background-image: url(../images/gallery-1.jpeg);
+}
+
+.gallery .img-2 {
+  background-image: url(../images/gallery-2.jpeg);
+}
+
+.gallery .img-3 {
+  background-image: url(../images/gallery-3.jpeg);
+}
+
+.gallery .img-4 {
+  background-image: url(../images/gallery-4.jpeg);
+}
+
+.gallery .img-5 {
+  background-image: url(../images/gallery-5.jpeg);
+}
+
+.gallery .img-6 {
+  background-image: url(../images/gallery-6.jpeg);
+}
+
+.block-2 {
+  background-color: #d9b1b3;
+  padding: 50px 0;
+  color: white;
+}
+
+.block-2 .row-column-100 {
+  justify-content: center;
+}
+
+.block-2 .block-2-heading, 
+.block-2 .sub-text, 
+.block-2 .get-updates {
+  text-align: center;
+}
+
+.block-2 .block-2-heading {
+  font-size: 4rem;
+}
+
+.block-2 .sub-text {
+  font-size: 1.3rem;
+}
+
+.block-2 .get-updates {
+  margin-top: 40px;
+  
+}
+
+.block-2 .row-100 {
+  justify-content: center;
+}
+
+.get-updates .updates {
+  display: flex;
+  justify-content: center;
+  padding: 0 5px;
+}
+
+.get-updates .text-input,
+.get-updates .update-btn {
+  padding: 15px 10px;
+  border: unset;
+  border-radius: 20px;
+}
+
+.get-updates .update-btn {
+  color: white;
+  background-color: black;
+}
+
+.block-3 {
+  padding: 3rem;
+}
+
+.image-part, .bio-part {
+  height: 45rem;
+  display: flex;
+  align-items: center;
+}
+
+.image-part {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 35%;
+}
+
+.image-part, .bio-img {
+  width: 100%;
+}
+
+.bio-part {
+  margin: 0 0 0 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 55%;
+  padding: 1.3rem;
+  justify-content: center;
+}
+
+.bio-part .text-part {
+  font-size: 1.2rem;
+  font-weight: 100px;
+  line-height: 2rem;
+}
+
+.signature-part {
+  align-self: baseline;
+  width: 10px;
+}
+
+.block-4 {
+  padding: 3.5rem;
+  background-color: #d9b1b3;
+  color: white;
+}
+
+.block-4 .row-100 {
+  justify-content: center;
+}
+
+.block-4-title {
+  font-size: 3.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.collection-gallery {
+  height: 350px;
+  flex-grow: 1;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0.3rem; 
+}
+
+.collection-img-1 {
+  background-image: url(../images/slide-1.jpeg);
+}
+
+.collection-img-2 {
+  background-image: url(../images/slide-2.jpeg);
+}
+
+.collection-img-3 {
+  background-image: url(../images/slide-3.jpeg);
+}
+
+.collection-img-4 {
+  background-image: url(../images/slide-4.jpeg);
+}
+
+.collection-img {
+  width: 100%;
+}
+
+.collection-icon {
+  margin-top: 1.6rem;
+}
+
+.product-block {
+  padding: 4.5rem;
+}
+
+.product-box {
+  height: 350px;
+  flex-grow: 1;
+  flex-basis: 33.33%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.product-box img {
+  width: 100%;
+}
+
+.product-box, .product-text {
+  padding: 0.5rem;
+}
+
+.product-text {
+  padding: 30px 20px;
+  height: 350px;
+  flex-grow: 1;
+  flex-basis: 33.33%;
+  color: black;
+}
+
+.product-text .product-heading {
+  font-size: 1.7rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.product-text .pricing {
+  margin-top: 30px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.product-text .sample-text{
+  margin-top: 20px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.butn button {
+  margin-top: 15px;
+  width: 150px;
+  height: 50px;
+  padding: 0.7rem;
+  border-radius: 1.5rem;
+  background-color: black;
+  color: white;
+  border: unset;
+  cursor: pointer;
+}
+
+.butn button:hover {
+  background-color: #d9b1b3;
+}
+
+.img-section, .form-section {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 50%;
+  height: 100vh;
+}
+
+.form-section {
+  padding: 180px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.img-section {
+  background-image: url('../images/subscribe.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.subcr-title {
+  position: relative;
+  text-align: center;
+  font-size: 72px;
+  font-style: italic;
+  font-weight: bolder;
+  margin: 20px 0 20px 0;
+}
+
+.subcr-title::before {
+  content: '';
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 10px;
+  width: 530px;
+  background-color: #d9b1b3;
+  margin-top: 105px;
+}
+
+.form-input input {
+  display: flex;
+  flex-direction: row;
+  padding: 0.8rem 1rem;
+  margin: 1rem;
+}
+
+.form-input button {
+  margin-top: 15px;
+  width: 150px;
+  height: 50px;
+  padding: 0.7rem;
+  border-radius: 1.5rem;
+  background-color: black;
+  color: white;
+  border: unset;
+  cursor: pointer;
+}
+
+.form-input button:hover {
+  background-color: #d9b1b3;
+}
+
+.subcr-text {
+  font-size: 0.7rem;
+  font-weight: lighter;
+}
